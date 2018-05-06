@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E95B7723209EF57C0006188A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E95B7722209EF57C0006188A /* AppDelegate.m */; };
+		E95B7726209EF57C0006188A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95B7725209EF57C0006188A /* ViewController.m */; };
+		E95B7729209EF57C0006188A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95B7727209EF57C0006188A /* Main.storyboard */; };
+		E95B772C209EF57C0006188A /* CyTabbar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E95B772A209EF57C0006188A /* CyTabbar.xcdatamodeld */; };
+		E95B772E209EF57E0006188A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95B772D209EF57E0006188A /* Assets.xcassets */; };
+		E95B7731209EF57E0006188A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95B772F209EF57E0006188A /* LaunchScreen.storyboard */; };
+		E95B7734209EF57E0006188A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E95B7733209EF57E0006188A /* main.m */; };
+		E95B773E209EF57E0006188A /* CyTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E95B773D209EF57E0006188A /* CyTabbarTests.m */; };
+		E95B7749209EF57E0006188A /* CyTabbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E95B7748209EF57E0006188A /* CyTabbarUITests.m */; };
+		E95B775D209EF5AE0006188A /* CyNavigationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95B7757209EF5AE0006188A /* CyNavigationControllerViewController.m */; };
+		E95B775E209EF5AE0006188A /* CyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E95B7758209EF5AE0006188A /* CyTabBar.m */; };
+		E95B775F209EF5AE0006188A /* CyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95B7759209EF5AE0006188A /* CyTabBarController.m */; };
+		E95B7762209EF64F0006188A /* CyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95B7761209EF64F0006188A /* CyViewController.m */; };
+		E95B7764209EF6BE0006188A /* CyTabbar.icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95B7763209EF6BE0006188A /* CyTabbar.icon.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E95B773A209EF57E0006188A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E95B7716209EF57C0006188A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95B771D209EF57C0006188A;
+			remoteInfo = CyTabbar;
+		};
+		E95B7745209EF57E0006188A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E95B7716209EF57C0006188A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95B771D209EF57C0006188A;
+			remoteInfo = CyTabbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E95B771E209EF57C0006188A /* CyTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95B7721209EF57C0006188A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E95B7722209EF57C0006188A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E95B7724209EF57C0006188A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E95B7725209EF57C0006188A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E95B7728209EF57C0006188A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E95B772B209EF57C0006188A /* CyTabbar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CyTabbar.xcdatamodel; sourceTree = "<group>"; };
+		E95B772D209EF57E0006188A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E95B7730209EF57E0006188A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E95B7732209EF57E0006188A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95B7733209EF57E0006188A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E95B7739209EF57E0006188A /* CyTabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyTabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95B773D209EF57E0006188A /* CyTabbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CyTabbarTests.m; sourceTree = "<group>"; };
+		E95B773F209EF57E0006188A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95B7744209EF57E0006188A /* CyTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95B7748209EF57E0006188A /* CyTabbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CyTabbarUITests.m; sourceTree = "<group>"; };
+		E95B774A209EF57E0006188A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95B7757209EF5AE0006188A /* CyNavigationControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyNavigationControllerViewController.m; sourceTree = "<group>"; };
+		E95B7758209EF5AE0006188A /* CyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyTabBar.m; sourceTree = "<group>"; };
+		E95B7759209EF5AE0006188A /* CyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyTabBarController.m; sourceTree = "<group>"; };
+		E95B775A209EF5AE0006188A /* CyNavigationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyNavigationControllerViewController.h; sourceTree = "<group>"; };
+		E95B775B209EF5AE0006188A /* CyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyTabBarController.h; sourceTree = "<group>"; };
+		E95B775C209EF5AE0006188A /* CyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyTabBar.h; sourceTree = "<group>"; };
+		E95B7760209EF64F0006188A /* CyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CyViewController.h; sourceTree = "<group>"; };
+		E95B7761209EF64F0006188A /* CyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CyViewController.m; sourceTree = "<group>"; };
+		E95B7763209EF6BE0006188A /* CyTabbar.icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CyTabbar.icon.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E95B771B209EF57C0006188A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95B7736209EF57E0006188A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95B7741209EF57E0006188A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E95B7715209EF57C0006188A = {
+			isa = PBXGroup;
+			children = (
+				E95B7720209EF57C0006188A /* CyTabbar */,
+				E95B773C209EF57E0006188A /* CyTabbarTests */,
+				E95B7747209EF57E0006188A /* CyTabbarUITests */,
+				E95B771F209EF57C0006188A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E95B771F209EF57C0006188A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E95B771E209EF57C0006188A /* CyTabbar.app */,
+				E95B7739209EF57E0006188A /* CyTabbarTests.xctest */,
+				E95B7744209EF57E0006188A /* CyTabbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E95B7720209EF57C0006188A /* CyTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				E95B7756209EF5AE0006188A /* CyTabbar */,
+				E95B7721209EF57C0006188A /* AppDelegate.h */,
+				E95B7722209EF57C0006188A /* AppDelegate.m */,
+				E95B7724209EF57C0006188A /* ViewController.h */,
+				E95B7725209EF57C0006188A /* ViewController.m */,
+				E95B7727209EF57C0006188A /* Main.storyboard */,
+				E95B772D209EF57E0006188A /* Assets.xcassets */,
+				E95B772F209EF57E0006188A /* LaunchScreen.storyboard */,
+				E95B7732209EF57E0006188A /* Info.plist */,
+				E95B7733209EF57E0006188A /* main.m */,
+				E95B772A209EF57C0006188A /* CyTabbar.xcdatamodeld */,
+			);
+			path = CyTabbar;
+			sourceTree = "<group>";
+		};
+		E95B773C209EF57E0006188A /* CyTabbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E95B773D209EF57E0006188A /* CyTabbarTests.m */,
+				E95B773F209EF57E0006188A /* Info.plist */,
+			);
+			path = CyTabbarTests;
+			sourceTree = "<group>";
+		};
+		E95B7747209EF57E0006188A /* CyTabbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E95B7748209EF57E0006188A /* CyTabbarUITests.m */,
+				E95B774A209EF57E0006188A /* Info.plist */,
+			);
+			path = CyTabbarUITests;
+			sourceTree = "<group>";
+		};
+		E95B7756209EF5AE0006188A /* CyTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				E95B7757209EF5AE0006188A /* CyNavigationControllerViewController.m */,
+				E95B7758209EF5AE0006188A /* CyTabBar.m */,
+				E95B7759209EF5AE0006188A /* CyTabBarController.m */,
+				E95B775A209EF5AE0006188A /* CyNavigationControllerViewController.h */,
+				E95B775B209EF5AE0006188A /* CyTabBarController.h */,
+				E95B775C209EF5AE0006188A /* CyTabBar.h */,
+				E95B7760209EF64F0006188A /* CyViewController.h */,
+				E95B7761209EF64F0006188A /* CyViewController.m */,
+				E95B7763209EF6BE0006188A /* CyTabbar.icon.xcassets */,
+			);
+			path = CyTabbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E95B771D209EF57C0006188A /* CyTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95B774D209EF57E0006188A /* Build configuration list for PBXNativeTarget "CyTabbar" */;
+			buildPhases = (
+				E95B771A209EF57C0006188A /* Sources */,
+				E95B771B209EF57C0006188A /* Frameworks */,
+				E95B771C209EF57C0006188A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CyTabbar;
+			productName = CyTabbar;
+			productReference = E95B771E209EF57C0006188A /* CyTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E95B7738209EF57E0006188A /* CyTabbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95B7750209EF57E0006188A /* Build configuration list for PBXNativeTarget "CyTabbarTests" */;
+			buildPhases = (
+				E95B7735209EF57E0006188A /* Sources */,
+				E95B7736209EF57E0006188A /* Frameworks */,
+				E95B7737209EF57E0006188A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E95B773B209EF57E0006188A /* PBXTargetDependency */,
+			);
+			name = CyTabbarTests;
+			productName = CyTabbarTests;
+			productReference = E95B7739209EF57E0006188A /* CyTabbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E95B7743209EF57E0006188A /* CyTabbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95B7753209EF57E0006188A /* Build configuration list for PBXNativeTarget "CyTabbarUITests" */;
+			buildPhases = (
+				E95B7740209EF57E0006188A /* Sources */,
+				E95B7741209EF57E0006188A /* Frameworks */,
+				E95B7742209EF57E0006188A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E95B7746209EF57E0006188A /* PBXTargetDependency */,
+			);
+			name = CyTabbarUITests;
+			productName = CyTabbarUITests;
+			productReference = E95B7744209EF57E0006188A /* CyTabbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E95B7716209EF57C0006188A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = cyroom;
+				TargetAttributes = {
+					E95B771D209EF57C0006188A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					E95B7738209EF57E0006188A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E95B771D209EF57C0006188A;
+					};
+					E95B7743209EF57E0006188A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E95B771D209EF57C0006188A;
+					};
+				};
+			};
+			buildConfigurationList = E95B7719209EF57C0006188A /* Build configuration list for PBXProject "CyTabbar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E95B7715209EF57C0006188A;
+			productRefGroup = E95B771F209EF57C0006188A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E95B771D209EF57C0006188A /* CyTabbar */,
+				E95B7738209EF57E0006188A /* CyTabbarTests */,
+				E95B7743209EF57E0006188A /* CyTabbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E95B771C209EF57C0006188A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95B7731209EF57E0006188A /* LaunchScreen.storyboard in Resources */,
+				E95B7764209EF6BE0006188A /* CyTabbar.icon.xcassets in Resources */,
+				E95B772E209EF57E0006188A /* Assets.xcassets in Resources */,
+				E95B7729209EF57C0006188A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95B7737209EF57E0006188A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95B7742209EF57E0006188A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E95B771A209EF57C0006188A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95B7762209EF64F0006188A /* CyViewController.m in Sources */,
+				E95B775F209EF5AE0006188A /* CyTabBarController.m in Sources */,
+				E95B7726209EF57C0006188A /* ViewController.m in Sources */,
+				E95B775D209EF5AE0006188A /* CyNavigationControllerViewController.m in Sources */,
+				E95B7723209EF57C0006188A /* AppDelegate.m in Sources */,
+				E95B775E209EF5AE0006188A /* CyTabBar.m in Sources */,
+				E95B7734209EF57E0006188A /* main.m in Sources */,
+				E95B772C209EF57C0006188A /* CyTabbar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95B7735209EF57E0006188A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95B773E209EF57E0006188A /* CyTabbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95B7740209EF57E0006188A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95B7749209EF57E0006188A /* CyTabbarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E95B773B209EF57E0006188A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E95B771D209EF57C0006188A /* CyTabbar */;
+			targetProxy = E95B773A209EF57E0006188A /* PBXContainerItemProxy */;
+		};
+		E95B7746209EF57E0006188A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E95B771D209EF57C0006188A /* CyTabbar */;
+			targetProxy = E95B7745209EF57E0006188A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E95B7727209EF57C0006188A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95B7728209EF57C0006188A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E95B772F209EF57E0006188A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95B7730209EF57E0006188A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E95B774B209EF57E0006188A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E95B774C209EF57E0006188A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E95B774E209EF57E0006188A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R52ZK63EF6;
+				INFOPLIST_FILE = CyTabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cyroom.CyTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E95B774F209EF57E0006188A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R52ZK63EF6;
+				INFOPLIST_FILE = CyTabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cyroom.CyTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E95B7751209EF57E0006188A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R52ZK63EF6;
+				INFOPLIST_FILE = CyTabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cyroom.CyTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyTabbar.app/CyTabbar";
+			};
+			name = Debug;
+		};
+		E95B7752209EF57E0006188A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R52ZK63EF6;
+				INFOPLIST_FILE = CyTabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cyroom.CyTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyTabbar.app/CyTabbar";
+			};
+			name = Release;
+		};
+		E95B7754209EF57E0006188A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R52ZK63EF6;
+				INFOPLIST_FILE = CyTabbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cyroom.CyTabbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CyTabbar;
+			};
+			name = Debug;
+		};
+		E95B7755209EF57E0006188A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R52ZK63EF6;
+				INFOPLIST_FILE = CyTabbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cyroom.CyTabbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CyTabbar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E95B7719209EF57C0006188A /* Build configuration list for PBXProject "CyTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95B774B209EF57E0006188A /* Debug */,
+				E95B774C209EF57E0006188A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95B774D209EF57E0006188A /* Build configuration list for PBXNativeTarget "CyTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95B774E209EF57E0006188A /* Debug */,
+				E95B774F209EF57E0006188A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95B7750209EF57E0006188A /* Build configuration list for PBXNativeTarget "CyTabbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95B7751209EF57E0006188A /* Debug */,
+				E95B7752209EF57E0006188A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95B7753209EF57E0006188A /* Build configuration list for PBXNativeTarget "CyTabbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95B7754209EF57E0006188A /* Debug */,
+				E95B7755209EF57E0006188A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E95B772A209EF57C0006188A /* CyTabbar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E95B772B209EF57C0006188A /* CyTabbar.xcdatamodel */,
+			);
+			currentVersion = E95B772B209EF57C0006188A /* CyTabbar.xcdatamodel */;
+			path = CyTabbar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E95B7716209EF57C0006188A /* Project object */;
+}

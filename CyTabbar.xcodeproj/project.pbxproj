@@ -21,7 +21,7 @@
 		E95B775F209EF5AE0006188A /* CyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95B7759209EF5AE0006188A /* CyTabBarController.m */; };
 		E95B7762209EF64F0006188A /* CyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95B7761209EF64F0006188A /* CyViewController.m */; };
 		E95B7764209EF6BE0006188A /* CyTabbar.icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95B7763209EF6BE0006188A /* CyTabbar.icon.xcassets */; };
-		E95B7768209F16280006188A /* CyTabbar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E95B7767209F16280006188A /* CyTabbar.podspec */; };
+		E95B7768209F16280006188A /* CyTabbar_cycao.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E95B7767209F16280006188A /* CyTabbar_cycao.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,7 @@
 		E95B7760209EF64F0006188A /* CyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CyViewController.h; sourceTree = "<group>"; };
 		E95B7761209EF64F0006188A /* CyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CyViewController.m; sourceTree = "<group>"; };
 		E95B7763209EF6BE0006188A /* CyTabbar.icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CyTabbar.icon.xcassets; sourceTree = "<group>"; };
-		E95B7767209F16280006188A /* CyTabbar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CyTabbar.podspec; sourceTree = "<group>"; };
+		E95B7767209F16280006188A /* CyTabbar_cycao.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CyTabbar_cycao.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 				E95B773C209EF57E0006188A /* CyTabbarTests */,
 				E95B7747209EF57E0006188A /* CyTabbarUITests */,
 				E95B771F209EF57C0006188A /* Products */,
-				E95B7767209F16280006188A /* CyTabbar.podspec */,
+				E95B7767209F16280006188A /* CyTabbar_cycao.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -273,7 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E95B7731209EF57E0006188A /* LaunchScreen.storyboard in Resources */,
-				E95B7768209F16280006188A /* CyTabbar.podspec in Resources */,
+				E95B7768209F16280006188A /* CyTabbar_cycao.podspec in Resources */,
 				E95B7764209EF6BE0006188A /* CyTabbar.icon.xcassets in Resources */,
 				E95B772E209EF57E0006188A /* Assets.xcassets in Resources */,
 				E95B7729209EF57C0006188A /* Main.storyboard in Resources */,
